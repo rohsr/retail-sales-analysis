@@ -1,41 +1,79 @@
 # 🛒 Retail Sales Performance Analysis
 
-## 🧠 Project Overview
-This project analyzes a retail dataset to extract insights on regional performance, product categories, and customer segments. The goal is to help the business understand key trends and improve sales strategy.
+## 📌 Project Overview
+This project analyzes a fictional retail company's sales data to uncover trends, identify top-performing regions and customers, and detect underperforming product segments. The insights are presented via interactive dashboards in Tableau and Power BI, along with Python-based EDA.
+
+## 🧰 Tools & Technologies
+- **Python** (Pandas, Matplotlib, Seaborn)
+- **Power BI**
+- **Tableau Public**
+- **Jupyter / VS Code**
+- **Excel / CSV**
 
 ## 📁 Dataset
-- [Sample Superstore Dataset](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
+- [Superstore Sales Dataset](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
 
-## 🔧 Tools Used
-- Python (Pandas, Seaborn, Matplotlib)
-- SQL (optional for analysis)
-- Tableau or Power BI
+---
 
-## 🔍 Key Questions Answered
-- Which regions and categories drive the most revenue and profit?
-- What are the trends over months/years?
-- Who are the top customers?
-- Which products are underperforming?
+## 📊 Key Visualizations
 
-## 📊 Dashboards
-- Monthly sales trend line chart
-- Region-wise sales heatmap
-- Profitability by category/sub-category
-- Top 10 profitable customers
+1. **Monthly Sales Trend** – Understand seasonal performance
+2. **Sales by Region** – Compare regional performance
+3. **Profit by Sub-Category** – Spot low-profit or loss-making products
+4. **Top 10 Customers by Sales** – Identify high-value customers
 
-## 🧹 Data Tasks
-- Cleaned missing values, standardized column types
-- Created calculated fields (profit margin, sales rank)
-- Created grouped summaries and pivot tables
+---
 
-## 🧠 Insights
-- The West region performs best in terms of total profit
-- Office Supplies category underperforms in the South
-- Segmenting by corporate vs. consumer reveals pricing leverage
+## 💡 Key Insights
 
-## 📌 Outcome
-This analysis provides actionable insights to optimize pricing, supply focus, and customer targeting by segment & region.
+- **West region** generates the highest revenue; **Central** has lower profitability.
+- **Office Supplies** have decent sales volume but low margin.
+- Certain sub-categories (e.g., **Tables**, **Bookcases**) are consistently unprofitable.
+- **Top 10 customers** contribute a significant portion of revenue — key for retention.
 
-## 📷 Sample Visuals
-![Sample Dashboard](images/key_visuals.png)
+---
 
+## 📈 Dashboards
+
+### 🔗 Tableau Public:
+👉 [View Interactive Dashboard](https://public.tableau.com/views/TableuVisualPresentation/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+### 🟡 Power BI:
+📁 See `dashboard/retail_sales_dashboard.pbix` in this repo.
+
+---
+
+## 🧪 Python EDA
+See `notebooks/sales_analysis.py` for:
+- Cleaning & preprocessing
+- KPI calculations
+- Data visualizations saved in `images/`
+
+
+## 📂 Project Structure
+retail-sales-analysis/
+├── data/
+│ └── superstore.csv
+├── notebooks/
+│ └── sales_analysis.py
+├── dashboard/
+│ ├── retail_sales_dashboard.pbix
+│ └── retail_sales_dashboard.twb
+├── images/
+│ ├── monthly_sales.png
+│ ├── top_customers.png
+│ └── ...
+└── README.md
+
+
+## 🧠 What I Learned
+- Creating interactive dashboards that tell a story
+- Using time-series and categorical data to drive insight
+- Communicating findings visually and professionally
+- How to polish a project for hiring managers & recruiters
+
+---
+
+## 📌 Author
+**Rohith S**  
+[LinkedIn](https://linkedin.com/in/rohiths98)
